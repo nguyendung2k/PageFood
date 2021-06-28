@@ -1,0 +1,280 @@
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header--logo {
+    width: 246px;
+    height: 101.16px;
+    margin-left: 70px;
+    margin-top: 26.72px;
+    margin-bottom: 26.72px;
+}
+
+
+/* .header--menu :not(:first-child) {
+    color: var(--text-color);
+} */
+
+
+
+.menu {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+.menu--item:first-child {
+    color: var(--primary-color);
+}
+
+.menu--item:not(:first-child) {
+    margin-left: 94px;
+}
+
+.menu--item:hover {
+    color: var(--primary-color);
+}
+
+.content {}
+
+.background--image {
+    position: relative;
+    background-image: url('./img/backgroundimg.png');
+    height: 616px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.section--block {
+    margin-top: 73px;
+    line-height: 1.6;
+}
+
+.content-heading {}
+
+.des {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.des>span {
+    display: block;
+}
+
+.end {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 17px;
+    margin-bottom: 54px;
+}
+
+.btn {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.button-primary {
+    background-color: var(--primary-color);
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    padding: 16px 52px;
+}
+
+.button {
+    margin-left: 34px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px white;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    padding: 16px 52px;
+}
+
+.setup{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -90px;
+}
+.line{
+    width: 500px;
+    height: 0.2px;
+    background-color: #E4E4E4;
+}
+.title{
+    font-size: 2rem;
+    margin:-75px;
+ }
+
+/* .app--image {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: -95px;
+} */
+
+
+
+/* -----------------------tutorial------------------------ */
+
+.group {
+    position: relative;
+}
+
+.group2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 148px;
+}
+
+
+
+.auth {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 446px;
+}
+
+.auth--image {
+    margin-top: 78px;
+    margin-left: 200px;
+}
+
+.tutorial {
+    margin: 83px 144px 171px 72px;
+    line-height: 1.6;
+    padding-top: 100px;
+}
+
+.tutorial--title {
+    color: var(--primary-color);
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.tutorial--des {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.tutorial--des>span {
+    display: block;
+}
+
+.tutorial--end {
+    font-size: 1.2rem;
+    color: #737373;
+    margin-bottom: 7px;
+}
+
+.group .tutorial--end>span {
+    display: block;
+}
+
+.backgroundend {
+    position: relative;
+    background-image: url('./img/backgroundimgend.png');
+    margin-top: 400px;
+    width: 100%;
+    height: 511px;
+}
+
+.block--end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+
+.end--block {
+    margin-top: 140px;
+    line-height: 1.6;
+}
+
+.end--title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.end--des {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.btn {
+    color: white;
+}
+
+.button--primary {}
+
+.button {}
+
+/* footer */
+.end{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+ }
+
+.end__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+ }
+.end__list-item{ 
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.fab{
+    font-size: 30px;
+color: var(--primary-color);
+}
+.end__des{
+    font-weight: 500;
+ }
